@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: 100;
+    src: url(./fonts/Vazir.eot) format('eot'),
+        url(./fonts/Vazir.ttf) format('ttf'),
+        url(./fonts/Vazir.woff) format('woff'),
+        url(./fonts/Vazir.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: 300;
+    src: url(./fonts/Vazir.eot) format('eot'),
+    url(./fonts/Vazir.ttf) format('ttf'),
+    url(./fonts/Vazir.woff) format('woff'),
+    url(./fonts/Vazir.woff2) format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/Vazir.eot) format('eot'),
+        url(./fonts/Vazir.ttf) format('ttf'),
+        url(./fonts/Vazir.woff) format('woff'),
+        url(./fonts/Vazir.woff2) format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./fonts/Vazir.eot) format('eot'),
+        url(./fonts/Vazir.ttf) format('ttf'),
+        url(./fonts/Vazir.woff) format('woff'),
+        url(./fonts/Vazir.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: 700;
+    src: url(./fonts/Vazir.eot) format('eot'),
+    url(./fonts/Vazir.ttf) format('ttf'),
+    url(./fonts/Vazir.woff) format('woff'),
+    url(./fonts/Vazir.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: 900;
+    src: url(./fonts/Vazir.eot) format('eot'),
+        url(./fonts/Vazir.ttf) format('ttf'),
+        url(./fonts/Vazir.woff) format('woff'),
+        url(./fonts/Vazir.woff2) format('woff2');
+}
+
+* {
+
+    font-family: 'Vazir';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list-container{
+    border: 30px 30px wheat;
+}
+.app{
+    background-color: #ffbc56;
+    height: 700px;
+    width: 1518px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.inline{
+    padding-left: 900px;
+    font-weight: 80px;
+    font-size: 30px;
+}
+.dropdown{
+    text-decoration: none;
+}
+.app .header{
+   position: fixed;
+       width: 80px;
+}
+.navbar .list-container{
+    font-size: 20px;
+    padding: 50px;
+    display: flex;
+    gap:30px;
+
+}
+.list-container .list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.list .list-item{
+    color: gray;
+    font-weight: 500;
+    transition: 0.5s color linear;
+    cursor: pointer;
+}
+.list .list-item :hover{
+    color: black;
+}
+.list-item:active{
+    color: black;
+}
+.main ::selection{
+    background-color: black;
+    color: beige;
+}
+.dropdown .dropdown-contant{
+    display: none;
+    position: absolute;
+    background-color: rgba(240, 255, 255, 0.86);
+    padding: 12px 16px;
+    min-width: 160px;
+    z-index: 1;
+
+}
+.dropdown-contant>ul{
+    list-style: none;
+    width: 250px;
+ }
+
+ .dropdown-contant>ul>li{
+    padding: 5px;
+ }
+
+.dropdown-contant>ul>li>a{
+        color:black;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3 color linear;
+    
+     }
+    
+.list .dropdown{
+        position: relative;
+        display: inline-block;
+     }
+
+.dropdown:hover .dropdown-contant{
+    display: block;
+  }   
+.dropdown .dropdown-contant>ul>li>a :hover{
+    background-color: #f3b14e;
+  }
+  .first{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+    .first h4{
+        font-size: 50px;
+        font-weight: 50px;
+    }
+
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+    .main{
+        position: absolute;
+        z-index: 0;
+    }
+    
+
+.slider{
+
+ margin-left: 500px;   
+}
+
+.slide{
+  
+    display: flex;
+    text-align: center;
+    height: 350px;
+    width: 300px;
+    margin-top: 635px;
+
+}
+
+
+ .seccond p{
+    color: gray;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-right: 80px;
+ }
+ .seccond h1{
+    font-weight: 50px;
+    padding-top: 60px;
+    width: 850px;
+ }
+ .seccond{
+    padding-top: 100px;
+    padding-left: 600px;
+ }
+ .seccond img{
+    width: 100px;
+    height: 50px;
+    
+}
+ .third{
+
+    padding-left: 200px;
+    padding-top: 2px;
+ }
+ .third p{
+    color: gray;
+ }
+ .arezo{
+    padding-left: 700px;
+    width: 1000px;
+    padding-top: 50px;
+ }
+ .arezo p{
+    color: gray;
+ }
+ .arezo img{
+    border-radius: 50%;
+    width: 80%!important;
+    margin-bottom: 1.5rem!important;
+    max-width: 100%;
+    height: auto;
+}
+ 
